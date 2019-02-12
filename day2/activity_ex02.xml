@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 전체  사방면 여백-->
+    <!-- android:layout_margin: 레이아웃의 여백(바깥여백)
+    레이아웃 크기가 조절-->
+    <!-- padding 내부 여백 레이아웃 크기는 그대로-->
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="@color/magenta"
+        android:id="@+id/magenta_iv"/>
+    <!-- +는 id값 부여하기에서만 사용-->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/Orange"
+        android:id="@+id/orange1"
+        android:layout_toRightOf="@id/magenta_iv"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:id="@+id/black1"
+        android:layout_toRightOf="@id/magenta_iv"
+        android:layout_below="@id/magenta_iv"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimary"
+        android:layout_toRightOf="@+id/orange1"/>
+   <ImageView
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:background="@color/colorPrimary"
+       android:id="@+id/id1"
+       android:layout_margin="20dp"
+       android:layout_below="@+id/black1"
+       android:layout_toLeftOf="@+id/black1"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/id2"
+        android:layout_below="@+id/id1"
+        android:layout_toRightOf="@+id/id1"/>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/id2"
+        android:layout_toRightOf="@+id/id2"/>
+    <!-- toRightOf ~의 오른쪽에 -->
+</RelativeLayout>

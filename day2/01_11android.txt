@@ -1,0 +1,15 @@
+1.LinearLayout
+:수직(Vertical) 혹은 수평(Horizontal) 방향으로 컴포넌트(==위젯)들을 배치하는 것
+2.RelativeLayout
+:컴포넌트들을 기준으로 ~~옆에/~~밑에 등으로 배치
+==============================
+layout_width, layout_height에는 총 4개의 값을 넣을 수 있음
+1."match_parent"
+:부모의 크기만큼
+
+2."wrap_content"
+:자식들을 다 감싼 크기
+
+3."숫자dp" (예.150dp") 거의 쓸일 없다.
+:절대크기
+4."fill_parent"(deprecated 사용 안함) 사용 안함
