@@ -1,0 +1,8 @@
+<회원가입 폼 만들기>
+1.이름(EditText)
+2.연락처(Spinner와 EditText)
+3.성별(RadioGroup)여자,남자
+4.이수과목(CheckBox)
+=>JAVA,C,C++,Python,Android,JSP
+5.맨 밑에 버튼:'회원가입'
+=>클릭하면 입력란의 모든 데이터를 Toast로 출력
