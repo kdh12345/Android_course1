@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv1"
+        android:text="뽑아보세요"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#086A87"
+        android:fontFamily="casual"
+        android:layout_marginTop="40dp"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv1">
+
+    </ListView>
+</RelativeLayout>
